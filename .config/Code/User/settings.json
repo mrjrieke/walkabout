@@ -1,0 +1,48 @@
+{
+    "emmet.preferences": {},
+    "go.toolsEnvVars": {
+//        "GOARCH": "amd64",
+//        "GOOS": "windows",
+       "GOARCH": "amd64",
+       "GOOS": "linux",
+// "GOARCH": "wasm",
+//         "GOOS": "js",
+        "GOBIN": "${workspaceFolder}/bin",
+    },
+    "go.useLanguageServer": true,
+    "[go]": {
+        "editor.snippetSuggestions": "none",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit",
+            "source.fixAll": "explicit"
+        },
+        "editor.defaultFormatter": "golang.go"
+    },
+    "files.eol": "\n",
+    "gopls": {
+        "usePlaceholders": true // add parameter placeholders when completing a function
+    },
+    "go.languageServerFlags": [
+
+    ],
+    "azureResourceGroups.selectedSubscriptions": [],
+    "go.gopath": "",
+    "go.toolsManagement.autoUpdate": true,
+    "redhat.telemetry.enabled": false,
+    "makefile.configureOnOpen": false,
+    "azureFunctions.showProjectWarning": false,
+    "editor.codeActionsOnSave": {
+        
+    },
+    "files.autoSave": "afterDelay",
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "editor.pasteAs.preferences": [
+
+    ],
+    "editor.multiCursorMergeOverlapping": false,
+    "editor.multiCursorLimit": 1,
+    "editor.selectionClipboard": false
+}
